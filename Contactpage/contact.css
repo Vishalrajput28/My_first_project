@@ -1,0 +1,413 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* ---------------------------------------Navbar-------------------------------------------- */
+
+
+.navbar{
+    height: 70px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed; 
+    z-index: 1;
+    box-shadow:  3px 2px 5px rgb(89, 89, 89);
+}   
+
+.img{
+    background-image: url(/Homepage/logo.jpg.webp);
+    background-repeat: no-repeat;
+    height: 35px;
+    width: 150px;
+}
+
+
+ul li a{
+    color: rgb(38, 50, 88);
+    font-size: 17px;
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.navs{
+    list-style-type: none;
+    display: flex;
+    gap: 50px;
+}
+
+ul li a:hover{
+    color: #ff2143;
+    transition: 0.3s;
+}
+
+
+
+/* -----------------------------------Service Image Section----------------------------------- */
+
+
+.herosection{
+    height: 100vh;
+    width: 100%; 
+    display: flex;               
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.back-video{
+    width: 100%;
+}
+
+.content h3{
+    color: #ff2143;
+    font-family: Roboto, sans-serif;
+    font-weight: lighter;
+    font-size: 40px;
+}
+
+.content h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 90px;
+    font-weight: bold; 
+    text-shadow: 1px 2px 2px  whitesmoke;
+    
+}
+
+.content p{
+    font-size: 20px;
+}
+
+.btn{
+    height: 50px;
+    letter-spacing: 2px;
+    width: 200px;
+    font-size: 15px;
+    background-color: #ff2143;
+    border: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn:hover{
+    background-color: transparent;
+    border: 1px solid #ff2143;
+    color: #ff2143;
+    transition: 1s;
+}
+
+.serviceimg{
+    background-image: linear-gradient(rgb(156, 75, 75),rgb(91, 91, 142));
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.handshake{
+    /* position: absolute; */
+    opacity: .4;
+}
+
+.serviceimg h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    color: white;
+    opacity: 1;
+    position: absolute; 
+    z-index: 1;
+    text-shadow: 1px 2px 4px rgb(78, 78, 78);
+}
+
+
+
+/* ---------------------------------------Form Section---------------------------------------- */
+
+
+.form-section{
+    height: 700px;
+    width: 100%;
+    position: relative;
+    background: linear-gradient(rgb(255, 255, 255),#bfcdff);
+    top: 100px;
+  
+}
+
+.form-section h1{
+    color: #ff2143  ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    position: absolute;
+    left: 50px;
+    line-height: 5px;
+}
+
+.label{
+    height: 50px;
+    width: 400px;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    background-color: transparent;
+    border: 1px solid #263258;
+}
+
+.label:hover{
+    background-color: rgb(229, 241, 244);
+    transition: .5s;
+    color: black;
+    border: 1px solid #263258;
+}
+
+.label-3{
+    height: 50px;
+    width: 805px;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    position: relative;
+    left: 50px;
+    background-color: transparent;
+    border: 1px solid #263258;
+    /* border-radius: 5px; */
+    
+}
+
+.label-3:hover{
+    background-color: rgb(229, 241, 244);
+    transition: .3s;
+    color: black;
+    border: 1px solid #263258;
+}
+
+
+#comments{
+    position: relative;
+    left: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid #263258;
+    /* border-radius: 5px; */
+}
+
+
+#comments:hover{
+    background-color: rgb(229, 241, 244);
+    transition: .5s;
+    color: black;
+    border: 1px solid #263258;
+}
+
+
+.contact-btn{
+    height: 50px;
+    width: 150px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    background-color: #ff2143;
+    color: white;
+    border: 1px solid #ff2143;
+    position: relative;
+    left: 50px;
+}
+
+.contact-btn:hover{
+    background-color: transparent;
+    border: 2px solid #ff2143;
+    transition: .5s;
+    color: #ff2143;
+}
+
+.name{
+    position: relative;
+    left: 50px;
+}
+
+.icon-section{
+    position: relative;
+    text-align: center;
+    justify-self: flex-end; 
+    right: 200px;
+    bottom: 450px;
+}
+
+.icon-section h4{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    color: #263258;
+}
+
+.icon-section p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    opacity: .8;
+    color: #263258;
+}
+
+.icon-contact{
+    display: flex;
+    color: #ff2143;
+    font-size: 30px;
+}
+
+
+
+
+
+/* ------------------------------------------Contact Footer--------------------------------------- */
+
+
+
+
+
+.main-footer{
+    /* position: relative; */
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-img-class1{
+    width: 100%;
+}
+
+.footer-img-class2{
+    position: relative;
+    filter: blur(2px);
+    width: 100%;
+    height: 700px;
+    
+}
+
+.footer-content{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    /* justify-items: center; */
+    position: absolute;
+    color: white;
+    
+}
+
+.footer-box1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 50px;
+}
+
+.footer-box1 h1{
+    font-family: Roboto, sans-serif ;
+}
+
+.footer-box1 h2{
+    color: #ff2143;
+}
+
+.footer-box2{
+    line-height: 40px;
+}
+
+.footer-box2 h1{
+    font-family: Roboto, sans-serif ;
+}
+
+.footer-box2 p{
+    font-family: Roboto, sans-serif ;
+    opacity: .5;
+    color: #fbfafa;
+}
+
+.footer-box2 a{
+    text-decoration: none;
+}
+
+.footer-box2 p:hover{
+    opacity: 1;
+    color: white;
+    transition: .5;
+    transform: scale(1.02);
+}
+
+.footer-box3{
+    line-height: 40px;
+}
+
+.footer-box3 h1{
+    font-family: Roboto, sans-serif ;
+}
+
+.footer-box3 p{
+    font-family: Roboto, sans-serif ;
+    opacity: .4;
+    color: #fbfafa;
+}
+
+.footer-box3 a{
+    text-decoration: none;
+}
+
+.footer-box3 p:hover{
+    opacity: 1;
+    color: white;
+    transition: .5;
+    transform: scale(1.02);
+}
+
+.footer-box4{
+    line-height: 50px;
+}
+
+.footer-box4 h1{
+    font-family: Roboto, sans-serif;
+}
+
+.footer-box4 p{
+    font-family: Roboto, sans-serif ;
+}
+
+#footer-mail{
+    height: 40px;
+    width:  300px;
+    padding: 10px;
+}
+
+.footer-btn{
+    height: 40px;
+    width: 90px;
+    font-family: Roboto, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: rgb(53, 52, 52);
+    color: #fbfafa;
+    border: none;
+}
+
+.footer-btn:hover{
+    background-color: rgb(64, 61, 61);
+    transition: .2s;
+}
+
+#copyright-section{
+    display: flex;
+    position: absolute;
+    margin-top: 550px;   
+    color: #fbfafa;
+    gap: 20px;
+}
+
+#copyright-section .icon-2{
+    color: #fbfafa;
+    font-size: 17px;
+}
+
+
+/* --------------------------------------------------------------------------- */

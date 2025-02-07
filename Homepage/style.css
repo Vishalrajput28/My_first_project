@@ -1,0 +1,677 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* ---------------------------------------Navbar-------------------------------------------- */
+
+
+.navbar{
+    height: 70px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed; 
+    z-index: 1;
+    box-shadow:  3px 2px 5px rgb(89, 89, 89);
+}  
+
+
+@media (min-width: 600px) and (max-width: 1200px) {
+    .navbar {
+      background-color: white;
+    }
+  }
+
+.img{
+    background-image: url(/Homepage/logo.jpg.webp);
+    background-repeat: no-repeat;
+    height: 35px;
+    width: 150px;
+}
+
+
+ul li a{
+    color: rgb(38, 50, 88);
+    font-size: 17px;
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.navs{
+    list-style-type: none;
+    display: flex;
+    gap: 50px;
+}
+
+ul li a:hover{
+    color: #ff2143;
+    transition: 0.3s;
+}
+
+/* ----------------------------------------Hero Section------------------------------------------- */
+
+
+.herosection{
+    height: 800px;
+    width: 100%; 
+    display: flex;               
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.back-video{
+    width: 100%;
+    height: 900px;
+}
+
+.content h3{
+    color: #ff2143;
+    font-family: Roboto, sans-serif;
+    font-weight: lighter;
+    font-size: 30px;
+}
+
+.content h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 85px;
+    text-shadow: 1px 1px 2px  rgb(53, 51, 51);
+
+}
+
+.content p{
+    font-size: 20px;
+}
+
+.btn{
+    height: 50px;
+    letter-spacing: 2px;
+    width: 200px;
+    font-size: 15px;
+    background-color: #ff2143;
+    border: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn:hover{
+    background-color: transparent;
+    border: 1px solid #ff2143;
+    color: #ff2143;
+    transition: 1s;
+    transform: translate(5px, 6px);
+}
+
+.content{
+    position: absolute;
+    left: 200px;
+}
+
+.fa-arrow-right{
+    font-size: 40px;
+    text-align: center;
+    align-content: center;
+    border: 1px solid rgb(7, 7, 7);
+    height: 70px;
+    width: 70px;
+    opacity: .3;
+    transition: 1s;
+}
+
+.fa-arrow-right:hover{
+    opacity: 1;
+    transition: 1s;
+}
+
+.arrowright{
+    display: flex;
+    justify-content: end;
+    left: 94%;
+    position: absolute;
+}
+
+.fa-arrow-left{
+    font-size: 40px;
+    text-align: center;
+    display: flex;
+    align-content: center;
+    border: 1px solid rgb(7, 7, 7);
+    height: 70px;
+    width: 70px;
+    opacity: .3;
+    transition: 1s;
+}
+
+.arrowleft{
+    display: flex;
+    justify-content: start;
+    left: 2%;
+    position: absolute;
+}
+
+.fa-arrow-left:hover{
+    opacity: 1;
+}
+
+.fa-users-gear{
+    display: flex;
+    align-items: center;
+}
+
+/* ------------------------------------Service Section - 1--------------------------------------- */
+
+
+
+.main-container{
+    background-color: #fbfafa;
+    width: 100%;
+    height: 800px;
+    position: relative;
+    display: flex;
+    /* background: linear-gradient( rgb(255, 191, 191), rgb(255, 255, 255)), rgb(255, 191, 191); */
+   
+}
+
+.service-head {
+    position: absolute;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    left: 200px;
+    top: 100px;
+}
+
+.service-head h3{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    font-weight: lighter;
+    color: #ff2143;
+}
+
+.service-head h1{
+    font-size: 50px;
+    color: #263258;
+}
+
+.service-cards{
+     display: flex;
+     position: relative;
+     width: 100%;
+     align-items: center;
+     justify-content: center;
+     gap: 100px;  
+     top: 100px;
+}
+
+.box{
+    align-content: center;
+    background-color: white;
+    color: #263258;
+    width: 350px;
+    height: 350px;
+    text-align: center;
+    font-family: sans-serif ;
+    border-radius: 5px;
+    box-shadow: 2px 3px 2px 4px rgb(244, 241, 241);
+    overflow: hidden;
+    font-size: 15px;
+    /* filter: blur(3px); */
+}
+
+.box:hover{
+    filter: none;
+    color:  white;
+    background-color: #ff2143;
+    transition: .5s;
+    transform: scale(1.1);
+    box-shadow: 1px 1px 10px 5px #c8bebe;
+  }
+
+.box h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: lighter;
+    padding: 15px;
+}
+
+.service-icon{
+    font-size: 40px;
+}
+
+.service-icon:hover{
+    color: white;
+}
+
+
+
+/* ---------------------------------------Service Section - 2--------------------------------------- */
+
+
+
+.service-section-2{
+    height: 800px;
+    width: 100%;
+    position: relative;
+}
+
+.service-box-1{
+    position: absolute;
+    width: 30%;
+    height: 750px;
+    background-color: #ff2143;
+}
+
+.service-box-2{
+    color: #fbfafa;
+    width: 100%;
+    height: 750px;
+    background-color: #263258;
+    justify-items: end;
+    /* justify-self: center; */
+    align-content: center;
+    padding: 20px;
+    
+}
+
+.business-img{
+    position: absolute;
+    height: 300px;
+    width: 400px;
+    left: 220px;
+    top: 240px;
+}
+
+ul li {
+    /* display: flex; */
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #ff2143;
+    list-style-type: none;
+}
+
+ul li h4{
+    font-size: 30px;
+}
+
+ul li h1{
+    font-size: 50px;
+    color: white;
+}
+
+ul li p{
+    color: white;
+    font-size: 20px;
+}
+
+.btn-service{
+    height: 50px;
+    width: 200px;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #ff2143;
+    border: 2px solid #ff2143;
+    color: white;
+}
+
+.btn-service:hover{
+    background-color: transparent;
+    border-color: #ff2143;
+}
+
+
+/* -----------------------------------------About Section----------------------------------------- */
+
+
+
+.main-about-section{
+    height: 1000px;
+    width: 100%;
+    background-color: #263258;
+    /* position: relative; */
+    display: flex;
+}
+
+.about-section-box1{
+    top: 600px;
+    position: relative;
+    height: 400px;
+    width: 100%;
+    background-color: rgb(253, 253, 253);
+    /* display: flex; */
+}
+
+.about-section-box2{
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    bottom: 300px;
+}
+
+.project-box{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-content: center;
+    text-align: center;
+    height: 180px;
+    width: 250px;
+    background-color: #fbfafa;
+    border: 10px solid white;
+    box-shadow: 1px px 3px rgb(212, 212, 212);
+}
+
+.project-box h1{
+    font-size: 40px;
+    color: red;
+}
+
+.client-box{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-content: center;
+    text-align: center;
+    height: 180px;
+    width: 250px;
+    color: white;
+    background-color: #ff2143;
+    border: 10px solid white;
+    box-shadow: 1px 2px 2px rgb(188, 188, 188);
+}
+
+.client-box h1{
+    font-size: 40px;
+}
+
+.client-box h1 p{
+    font-size: 20px;
+    color: white;
+}
+
+.coffee-box{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-content: center;
+    text-align: center;
+    height: 180px;
+    width: 250px;
+    background-color: #fbfafa;
+    border: 10px solid white;
+    box-shadow: 1px 2px 2px rgb(188, 188, 188);
+}
+
+.coffee-box h1{
+    font-size: 40px;
+    color: #ff2143;
+}
+
+.coffee-box p{
+    font-size: 20px;
+}
+
+.happy-client-box{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-content: center;
+    text-align: center;
+    height: 180px;
+    width: 250px;
+    background-color: #fbfafa;
+    border: 10px solid white;
+    box-shadow: 1px 2px 2px rgb(188, 188, 188); 
+}
+
+.happy-client-box h1{
+    font-size: 40px;
+    color: #ff2143;
+}
+
+.content-about{
+    position: absolute;
+    color: white;
+    /* text-align: center; */
+}
+
+.content-about p{
+    font-size: 20px;
+    padding: 40px;
+    flex-wrap: wrap;
+}
+
+.content-about h2{
+    font-size: 30px;
+    color: #ff2143;
+    font-family: Poppins, sans-serif;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.content-about h3{
+    text-align: center;
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+
+/* ---------------------------------------Searching Consultant Section------------------------------------------ */
+
+
+
+.search-consultant{
+    height: 400px;
+    width: 100%;
+    background-color: #ff2143;
+    display: flex;
+    align-items: center;
+    box-shadow: 2px 2px 4px rgb(177, 155, 155);
+}
+
+.search-consultant h1{
+    position: absolute;
+    font-family: Roboto, sans-serif;
+    font-size: 50px;
+    color: white;
+    left: 200px;
+}
+
+.btn-search-consultant{
+    position: absolute;
+    font-size: 20px;
+    height: 60px;
+    width: 220px;
+    left: 1200px;
+    background-color: black;
+    color: white;
+    font-family:  Roboto, sans-serif;
+    border: none;
+}
+
+.btn-search-consultant:hover{
+    background-color: white;
+    color: black;
+    transition: 1s;   
+}
+
+
+
+/* ----------------------------------Location Section------------------------------------- */
+
+
+
+
+.location-section{
+    position: relative;
+    height: 800px;
+    width: 100%;
+}
+
+.location-head {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    font-size: 25px;
+    font-family:  Roboto, sans-serif;
+    color: #263258 ;
+}
+
+.map{
+    position: absolute;
+    height: 200px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    top: 250px;
+    left: 150px;
+    padding: 20px;
+}
+
+
+/* ---------------------------------------Footer Section--------------------------------------------- */
+
+
+
+
+
+.main-footer{
+    /* position: relative; */
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-img-class1{
+    width: 100%;
+}
+
+.footer-img-class2{
+    position: relative;
+    filter: blur(2px);
+    width: 100%;
+    height: 700px;
+    
+}
+
+.footer-content{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    /* justify-items: center; */
+    position: absolute;
+    color: white;
+    
+}
+
+.footer-box1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 50px;
+}
+
+.footer-box1 h1{
+    font-family: Roboto, sans-serif ;
+}
+
+.footer-box1 h2{
+    color: #ff2143;
+}
+
+.footer-box2{
+    line-height: 40px;
+}
+
+.footer-box2 h1{
+    font-family: Roboto, sans-serif ;
+}
+
+.footer-box2 p{
+    font-family: Roboto, sans-serif ;
+    opacity: .5;
+    color: #fbfafa;
+}
+
+.footer-box2 a{
+    text-decoration: none;
+}
+
+.footer-box2 p:hover{
+    opacity: 1;
+    color: white;
+    transition: .5;
+    transform: scale(1.02);
+}
+
+.footer-box3{
+    line-height: 40px;
+}
+
+.footer-box3 h1{
+    font-family: Roboto, sans-serif ;
+}
+
+.footer-box3 p{
+    font-family: Roboto, sans-serif ;
+    opacity: .4;
+    color: #fbfafa;
+}
+
+.footer-box3 a{
+    text-decoration: none;
+}
+
+.footer-box3 p:hover{
+    opacity: 1;
+    color: white;
+    transition: .5;
+    transform: scale(1.02);
+}
+
+.footer-box4{
+    line-height: 50px;
+}
+
+.footer-box4 h1{
+    font-family: Roboto, sans-serif;
+}
+
+.footer-box4 p{
+    font-family: Roboto, sans-serif ;
+}
+
+#footer-mail{
+    height: 40px;
+    width:  300px;
+}
+
+.footer-btn{
+    height: 40px;
+    width: 90px;
+    font-family: Roboto, sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    background-color: rgb(53, 52, 52);
+    color: #fbfafa;
+    border: none;
+}
+
+.footer-btn:hover{
+    background-color: rgb(64, 61, 61);
+    transition: .2s;
+}
+
+#copyright-section{
+    display: flex;
+    position: absolute;
+    margin-top: 550px;   
+    color: #fbfafa;
+    gap: 20px;
+}
+
+#copyright-section .icon-2{
+    color: #fbfafa;
+    font-size: 17px;
+}
+
+/* --------------------------------------------------------------------------------------------- */
