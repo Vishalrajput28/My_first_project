@@ -16,7 +16,7 @@
     align-items: center;
     position: fixed;
     top: 0;
-    z-index: 1;
+    z-index: 10;
     box-shadow:  3px 2px 5px rgb(89, 89, 89);
 }
 

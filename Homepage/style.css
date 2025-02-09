@@ -107,6 +107,11 @@ ul li a:hover{
     transform: translate(5px, 6px);
 }
 
+
+.btn:focus{
+    border: 2px soli green;
+}
+
 .content{
     position: absolute;
     left: 200px;
