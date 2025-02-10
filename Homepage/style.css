@@ -20,13 +20,6 @@
     box-shadow:  3px 2px 5px rgb(89, 89, 89);
 }  
 
-
-@media (min-width: 600px) and (max-width: 1200px) {
-    .navbar {
-      background-color: white;
-    }
-  }
-
 .img{
     background-image: url(/Homepage/logo.jpg.webp);
     background-repeat: no-repeat;
